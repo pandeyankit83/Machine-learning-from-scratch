@@ -2,7 +2,6 @@
 from __future__ import division
 import numpy as np
 import pandas as pd
-# from copy import deepcopy
 from tqdm import tqdm
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
