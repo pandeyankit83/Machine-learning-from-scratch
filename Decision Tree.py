@@ -56,11 +56,7 @@ def build_dtree(X,Y):
     if gain == 0:
 #         print "leaf---", Y.shape
         return Tree(Y[0,0],None,None,None)
-#     print "ind-->",ind
-#     X_cols.pop(ind)
-    
-#     print "real ind-->",real_ind
-    
+   
     vals = np.unique(X[:,ind])
     
     unique, counts =np.unique(Y, return_counts=True) 
