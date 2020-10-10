@@ -5,8 +5,6 @@ import pandas as pd
 import scipy
 # from copy import deepcopy
 from tqdm import tqdm
-# from itertools import product
-# import pickle as p
 import random
 from random import randint
 from sklearn.cluster import KMeans
