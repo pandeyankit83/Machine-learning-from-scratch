@@ -5,7 +5,6 @@ from __future__ import division
 import numpy as np
 import pandas as pd
 import scipy
-# from copy import deepcopy
 from tqdm import tqdm
 
 from random import randint
