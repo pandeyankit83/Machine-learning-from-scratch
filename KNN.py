@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import math
+import math as m
 
 df_train = pd.read_csv("park_train.data",header=None)
 df_valid = pd.read_csv("park_validation.data",header=None)
